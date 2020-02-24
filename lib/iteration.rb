@@ -9,9 +9,9 @@ def join_ingredients(src)
   ret = []
   src.each do |pair|
     ret << "I love #{pair[0]} and #{pair[1]} on my pizza"
-    
+
   end
-  
+
 end
 
 def find_greater_pair(src)
@@ -21,7 +21,7 @@ def find_greater_pair(src)
   ret = []
   src.each do |pair|
     ret << pair.max
-    
+
   end
 end
 
