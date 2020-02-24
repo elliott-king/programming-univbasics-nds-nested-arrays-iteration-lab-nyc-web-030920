@@ -11,7 +11,7 @@ def join_ingredients(src)
     ret << "I love #{pair[0]} and #{pair[1]} on my pizza"
 
   end
-
+  ret
 end
 
 def find_greater_pair(src)
@@ -23,6 +23,7 @@ def find_greater_pair(src)
     ret << pair.max
 
   end
+  ret
 end
 
 def total_even_pairs(src)
