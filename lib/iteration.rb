@@ -36,7 +36,7 @@ def total_even_pairs(src)
   # this!
   t = 0
   src.each do |pair|
-    if pair[0] % 2 == 0 && pair[1] % 2 == 0:
+    if pair[0] % 2 == 0 && pair[1] % 2 == 0
       t += pair.sum
     end
   end
